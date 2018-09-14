@@ -67,3 +67,12 @@ h6 {
 .item p {
   margin: 0 0 5px 0;
 }
+
+
+.container {
+  display: grid;
+  color: #6d47d9;
+  grid-template-columns: 100px repeat(2, 1fr);
+  grid-template-rows: 200px 50px 100px;
+  grid-gap: 20px;
+}
